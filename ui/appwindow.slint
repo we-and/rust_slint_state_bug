@@ -1,0 +1,10 @@
+
+import { Example } from "example.slint";
+export component AppWindow inherits Window {
+    in-out property<int> counter: 42;
+    callback request-increase-value();
+    preferred-height: 600px;
+    preferred-width: 1000px;
+    Example {}
+    
+}
